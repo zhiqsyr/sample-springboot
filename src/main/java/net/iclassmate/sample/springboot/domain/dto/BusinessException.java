@@ -1,4 +1,4 @@
-package net.iclassmate.basecenter.domain.dto;
+package net.iclassmate.sample.springboot.domain.dto;
 
 import lombok.Data;
 import org.springframework.http.HttpStatus;

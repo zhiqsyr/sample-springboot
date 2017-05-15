@@ -44,7 +44,7 @@
             </triggeringPolicy>
         </appender>
 
-        <logger name="net.iclassmate.basecenter.web.aop.aspect.PerformanceAspect" level="warn">
+        <logger name="net.iclassmate.sample.springboot.web.aop.aspect.PerformanceAspect" level="warn">
             <appender-ref ref="file-performance" />
         </logger>
 

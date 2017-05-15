@@ -1,4 +1,4 @@
-package net.iclassmate.basecenter.web.aop.aspect;
+package net.iclassmate.sample.springboot.web.aop.aspect;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;

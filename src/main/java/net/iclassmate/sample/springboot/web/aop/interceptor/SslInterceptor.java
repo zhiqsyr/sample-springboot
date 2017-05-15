@@ -1,8 +1,8 @@
-package net.iclassmate.basecenter.web.aop.interceptor;
+package net.iclassmate.sample.springboot.web.aop.interceptor;
 
-import net.iclassmate.basecenter.domain.dto.BusinessException;
-import net.iclassmate.basecenter.utils.Constants;
-import net.iclassmate.basecenter.utils.MD5Utils;
+import net.iclassmate.sample.springboot.domain.dto.BusinessException;
+import net.iclassmate.sample.springboot.utils.Constants;
+import net.iclassmate.sample.springboot.utils.MD5Utils;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.util.Base64Utils;

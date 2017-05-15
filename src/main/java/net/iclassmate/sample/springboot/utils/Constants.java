@@ -1,7 +1,7 @@
-package net.iclassmate.basecenter.utils;
+package net.iclassmate.sample.springboot.utils;
 
-import net.iclassmate.basecenter.web.conf.GlobalProperties;
-import net.iclassmate.basecenter.web.conf.SpringLocator;
+import net.iclassmate.sample.springboot.web.conf.GlobalProperties;
+import net.iclassmate.sample.springboot.web.conf.SpringLocator;
 
 /**
  * 常量

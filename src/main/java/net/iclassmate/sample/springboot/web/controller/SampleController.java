@@ -1,4 +1,4 @@
-package net.iclassmate.basecenter.web.controller;
+package net.iclassmate.sample.springboot.web.controller;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

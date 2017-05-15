@@ -1,4 +1,4 @@
-package net.iclassmate.basecenter.utils;
+package net.iclassmate.sample.springboot.utils;
 
 import java.security.MessageDigest;
 import java.util.Arrays;

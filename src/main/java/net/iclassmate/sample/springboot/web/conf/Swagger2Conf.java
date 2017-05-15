@@ -1,4 +1,4 @@
-package net.iclassmate.basecenter.web.conf;
+package net.iclassmate.sample.springboot.web.conf;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,8 +1,8 @@
-package net.iclassmate.basecenter.web.conf;
+package net.iclassmate.sample.springboot.web.conf;
 
 import com.google.common.collect.ImmutableList;
-import net.iclassmate.basecenter.web.aop.interceptor.SslInterceptor;
-import net.iclassmate.basecenter.web.aop.filter.CorsFilter;
+import net.iclassmate.sample.springboot.web.aop.interceptor.SslInterceptor;
+import net.iclassmate.sample.springboot.web.aop.filter.CorsFilter;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
