@@ -1,0 +1,60 @@
+buildscript {               // groovy语法需要依赖的jar
+    repositories {
+        mavenLocal()
+        maven { url MAVEN_NEXUS_URL }
+        mavenCentral()
+    }
+    ext {
+        springBootVersion = '1.5.2.RELEASE'
+    }
+    dependencies {
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:$springBootVersion"
+    }
+}
+
+group 'net.iclassmate'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'        // 声明是 Java 项目
+apply plugin: 'idea'        // 声明工程适用 idea
+apply plugin: 'eclipse'     // 声明工程适用 eclipse
+apply plugin: 'spring-boot' // 声明采用 Spring Boot 框架
+
+sourceCompatibility = 1.8   // 采用 jdk 1.8 版本编译
+
+repositories {
+    mavenLocal()
+    maven { url MAVEN_NEXUS_URL }
+    mavenCentral()
+}
+
+ext {
+    swaggerVersion = '2.6.1'
+}
+
+dependencies {
+    compile ('org.springframework.boot:spring-boot-starter-web') {
+        exclude module: 'spring-boot-starter-tomcat'    // 移出默认 tomcat，使用 undertow
+    }
+    compile 'org.springframework.boot:spring-boot-starter-data-jpa'
+    compile 'com.zaxxer:HikariCP'
+    compile 'mysql:mysql-connector-java:6.0.6'
+
+    // utils
+    compile 'org.apache.commons:commons-lang3:3.5'
+    compile 'com.google.guava:guava:21.0'
+
+    // 服务运行容器
+    compile 'org.springframework.boot:spring-boot-starter-undertow'
+    compile 'io.undertow:undertow-core'
+
+    // 服务运行监控工具（开发环境可以注掉，提高启动速度）
+//    compile 'org.springframework.boot:spring-boot-starter-actuator'
+
+    // 开发或测试工具，提升开发效率
+    compile 'org.projectlombok:lombok'
+    compile "io.springfox:springfox-swagger2:$swaggerVersion"
+    compile "io.springfox:springfox-swagger-ui:$swaggerVersion"
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
