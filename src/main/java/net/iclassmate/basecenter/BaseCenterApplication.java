@@ -1,4 +1,4 @@
-package net.iclassmate.sample.springboot;
+package net.iclassmate.basecenter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

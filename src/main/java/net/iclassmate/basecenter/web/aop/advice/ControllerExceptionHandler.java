@@ -1,7 +1,7 @@
-package net.iclassmate.sample.springboot.web.aop.advice;
+package net.iclassmate.basecenter.web.aop.advice;
 
-import net.iclassmate.sample.springboot.domain.dto.BusinessException;
-import net.iclassmate.sample.springboot.domain.dto.Response;
+import net.iclassmate.basecenter.domain.dto.Response;
+import net.iclassmate.basecenter.domain.dto.BusinessException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;

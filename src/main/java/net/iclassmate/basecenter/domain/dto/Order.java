@@ -1,4 +1,4 @@
-package net.iclassmate.sample.springboot.domain.dto;
+package net.iclassmate.basecenter.domain.dto;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

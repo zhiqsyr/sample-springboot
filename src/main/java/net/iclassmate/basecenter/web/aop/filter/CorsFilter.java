@@ -1,4 +1,4 @@
-package net.iclassmate.sample.springboot.web.aop.filter;
+package net.iclassmate.basecenter.web.aop.filter;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletResponse;

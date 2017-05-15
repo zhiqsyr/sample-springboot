@@ -1,6 +1,6 @@
-package net.iclassmate.sample.springboot.web.aop.aspect;
+package net.iclassmate.basecenter.web.aop.aspect;
 
-import net.iclassmate.sample.springboot.domain.dto.Response;
+import net.iclassmate.basecenter.domain.dto.Response;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;

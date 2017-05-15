@@ -1,4 +1,4 @@
-package net.iclassmate.sample.springboot.web.conf;
+package net.iclassmate.basecenter.web.conf;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
